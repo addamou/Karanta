@@ -1,43 +1,27 @@
 @font-face { font-family: awesome;
     src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js");
 }
-/*css pages connaissances*/
-#section-1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.icons{
-    height: 30px;
-    width: 27px;
-    margin: 2px;
-}
-.icones{
-    display: flex;
-    border: solid 1px;
-    border-radius: 2px;
-    max-height: 70px;
-    max-width: 40px;
-    background-color: #fff;
-    text-align: center;
-    justify-items: center;
-    padding: 3px;
-    margin-left: 5px;
 
+.effet-hover:hover{ 
+        transform: scale(1.1);
+        transition: transform .3s ease-in-out;
+        background-color: #92c4fa;
+        color: #fff;
 }
 
-@media all and (max-width:950px) { 
+@media all and (max-width:760px) { 
     .checknone{
     display: none;
 }
-.images{
-    min-height: 300px;
+.image1{
+    max-height: 320px;
 }
-#images{
-    height: 360px;
-    padding: 25px;
-    margin-top: 5px;
-    padding-left: 30px;
+.boite-voile{
+   height: 290px;
+   width: auto;
+}
+.image-voile{
+    height: 288px;
 }
 .inpute{
     max-width: 98%;
