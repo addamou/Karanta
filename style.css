@@ -13,11 +13,9 @@
     .checknone{
     display: none;
 }
-.image1{
-    max-height: 320px;
-}
+
 .boite-voile{
-   height: 290px;
+   height: 430px;
    width: auto;
 }
 .image-voile{
